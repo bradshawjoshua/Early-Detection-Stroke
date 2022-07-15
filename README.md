@@ -1,2 +1,2 @@
-# Early-Detection-Heart-Failure
-Predict the likelihood of heart disease with the features provided.
+# Patient-Early-Detection-Of-Stroke
+Predict the likelihood of stroke with the features provided.
