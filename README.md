@@ -50,13 +50,13 @@ GridSearchCV on KNN
 Principle Component Analysis
 * Helped improved performance, but not noticeable compared to no PCA with KNN
 
-#### Visual 1 Title
+#### Percentage of Stroke Patients by Age Cohort
 ![image](https://user-images.githubusercontent.com/83310016/182333081-715edc72-7e01-4503-a709-c21e079d2675.png)
 
 
 > Visual 1 displays stroke patients by distinct age groups, providing quick glance at cohorts most affected by stroke.
 
-#### Visual 2 Title
+#### Stroke by Heart Disease and Hypertension Status
 ![image](https://user-images.githubusercontent.com/83310016/182333419-3bea013a-1562-49a4-9781-e373804fef8a.png)
 
 > Visual 2 displays patient status by heart disease and hypertension in order to show which group are most affected by stroke.
