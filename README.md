@@ -17,7 +17,7 @@ According to World Health, stroke is the second leading cause of death worldwide
 
 ## Methods
 * Conducted data cleaning and exploratory analysis on the data set to help identify which cohort was most affected by stroke.
-* Used supervised machine learning models to test which would be best for production
+* Used supervised machine learning models to test which model would be best for production.
   * Logistic Regression
   * K-nearest Neighbors (KNN)
 
