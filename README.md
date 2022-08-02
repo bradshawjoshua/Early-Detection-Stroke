@@ -12,7 +12,7 @@ I am predicting the likelihood of a person incurring a stroke.
 According to World Health, stroke is the second leading cause of death worldwide. The data set would like to improve the early detection of stroke in new patients based on the attributes provided.
 - By quickly scanning the details, I noticed that hypertension and heart disease features represent the patients with the diseases aforementioned.
 - I would need to do some oversampling (SMOTE) to overcome areas where data is lacking. 
-- At a glance, I would suggest more medical features to test my model's performance 
+- At a glance, I would suggest more medical features to test my model's performance. 
 
 
 ## Methods
