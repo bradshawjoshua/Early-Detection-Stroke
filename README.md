@@ -59,7 +59,7 @@ Principle Component Analysis
 #### Stroke by Heart Disease and Hypertension Status
 ![image](https://user-images.githubusercontent.com/83310016/182333419-3bea013a-1562-49a4-9781-e373804fef8a.png)
 
-> Visual 2 displays patient status by heart disease and hypertension in order to show which group are most affected by stroke.
+> Visual 2 displays patient status by heart disease and hypertension in order to show which groups are most affected by stroke.
 
 ## Model
 ### Logistics Regression for Deployment:
