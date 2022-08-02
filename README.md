@@ -21,17 +21,16 @@ According to World Health, stroke is the second leading cause of death worldwide
   * Logistic Regression
   * K-nearest Neighbors (KNN)
 
-
 ## Model Results
-Logistics Regression Baseline
+Logistic Regression Baseline
 * Train Accuracy: 95.59%
 * Test Accuracy: 93.82%
 
-Logistics Regression Balanced
+Logistic Regression Balanced
 * Train Accuracy: 75.02%
 * Test Accuracy: 75.35% (-18.47%)
 
-Logistics Regression SMOTE
+Logistic Regression SMOTE
 * Train Accuracy: 75.02%
 * Test Accuracy: 75.35% (-18.47%)
 
@@ -48,7 +47,7 @@ GridSearchCV on KNN
 * Test Accuracy: 93.66% (+0.15)
 
 Principle Component Analysis
-* Helped improve model performance (speed), but not noticeable compared to no PCA with KNN
+* Helped improve model performance (speed), but not noticeable compared to no PCA with KNN.
 
 #### Percentage of Stroke Patients by Age Cohort
 ![image](https://user-images.githubusercontent.com/83310016/182333081-715edc72-7e01-4503-a709-c21e079d2675.png)
@@ -62,22 +61,22 @@ Principle Component Analysis
 > Visual 2 displays patient status by heart disease and hypertension in order to show which groups are most affected by stroke.
 
 ## Model
-### Logistics Regression for Deployment:
-* Logistic Regression Model, performed best with or without hyperparameter tuning (L1); and used class weight (balancing) and Synthetic Minority Oversampling Technique due to stroke patients underrepresentation.
-  * Noticed some overfitting with my Logistic Regression model
-  * Identified more false negatives than I would like for this data set, so I attempted to balance my model in order to create predictions that would favor false positives
+### Logistic Regression for Deployment:
+* Logistic Regression model performed best with or without hyperparameter tuning (L1); and used class weight (balancing) and Synthetic Minority Oversampling Technique due to stroke patients' underrepresentation.
+  * Noticed some overfitting with my Logistic Regression model.
+  * Identified more false negatives than I would like for this data set, so I attempted to balance my model in order to create predictions that would favor false positives.
 
-Logistics Regression L1 Tune
+Logistic Regression L1 Tune
 * Train Accuracy: 95.59%
 * Test Accuracy: 93.82%
 
-Logistics Regression AUC - ROC Curve:
-* Based on AUC, there is an 85% chance that the logistic regression model will be able to distinguish between stroke and no stroke in a new patient.
+Logistic Regression AUC - ROC Curve:
+* Based on AUC, there is an 85% chance that the Logistic Regression model will be able to distinguish between stroke and no stroke in a new patient.
 
 ## Recommendations:
 
 * Patients with hypertension and heart disease need increased monitoring due to higher stroke cases for this group.
-* Suggest patients over 40 get checked every 6 months
+* Suggest patients over 40 get checked every 6 months.
 * If the patient has a BMI over 26 or has high blood pressure, then I suggest implementation of a fitness and nutritional remediation program.
 
 ## Limitations & Next Steps
