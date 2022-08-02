@@ -1,5 +1,5 @@
 # Patient Early Detection of Stroke
-##Exploratory Data Analysis & Prediction of Patient Incurring Stroke
+## Exploratory Data Analysis & Prediction of Patient Incurring Stroke
 
 **Author**: 
 
