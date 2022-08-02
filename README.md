@@ -48,7 +48,7 @@ GridSearchCV on KNN
 * Test Accuracy: 93.66% (+0.15)
 
 Principle Component Analysis
-* Helped improved performance, but not noticeable compared to no PCA with KNN
+* Helped improve model performance (speed), but not noticeable compared to no PCA with KNN
 
 #### Percentage of Stroke Patients by Age Cohort
 ![image](https://user-images.githubusercontent.com/83310016/182333081-715edc72-7e01-4503-a709-c21e079d2675.png)
