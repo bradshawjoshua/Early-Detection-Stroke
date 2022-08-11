@@ -26,25 +26,25 @@ Logistic Regression Baseline
 * Train Accuracy: 95.59%
 * Test Accuracy: 93.82%
 
-Logistic Regression Balanced
-* Train Accuracy: 75.02%
-* Test Accuracy: 75.35% (-18.47%)
+Logistic Regression L1
+* Train Accuracy: 95.12%
+* Test Accuracy: 95.23%
 
-Logistic Regression SMOTE
-* Train Accuracy: 75.02%
-* Test Accuracy: 75.35% (-18.47%)
+Logistic Regression Balanced with SMOTE
+* Train Accuracy: 74.79%
+* Test Accuracy: 73.40%
 
-KNN Baseline
-* Train Accuracy: 95.67%
-* Test Accuracy: 93.51%
+KNN Baseline with SMOTE
+* Train Accuracy: 88.88%
+* Test Accuracy: 80.05%
 
-KNN w/ best K
-* Train Accuracy: 95.64%
-* Test Accuracy: 93.74% (+0.23)
+KNN w/ best K with SMOTE
+* Train Accuracy: 99.97%
+* Test Accuracy: 88.50%
 
-GridSearchCV on KNN
-* Train Accuracy: 95.64%
-* Test Accuracy: 93.66% (+0.15)
+XGBoost with SMOTE
+* Train Accuracy: 100%
+* Test Accuracy: 93.04%
 
 Principle Component Analysis
 * Helped improve model performance (speed), but not noticeable compared to no PCA with KNN.
@@ -61,14 +61,15 @@ Principle Component Analysis
 > Visual 2 displays patient status by heart disease and hypertension in order to show which groups are most affected by stroke.
 
 ## Model
-### Logistic Regression for Deployment:
-* Logistic Regression model performed best with or without hyperparameter tuning (L1); and used class weight (balancing) and Synthetic Minority Oversampling Technique due to stroke patients' underrepresentation.
-  * Noticed some overfitting with my Logistic Regression model.
-  * Identified more false negatives than I would like for this data set, so I attempted to balance my model in order to create predictions that would favor false positives.
+### Logistic Regression Balanced with SMOTE for Deployment:
+* Logistic Regression Balanced with SMOTE performed best with or without hyperparameter tuning (L1); and used class weight (balancing) and Synthetic Minority Oversampling Technique due to stroke patients' underrepresentation (minority).
+   * Noticed some overfitting with my Logistic Regression models.
+   * Identified more false negatives than I would like for this data set, so I attempted to balance my model in order to create predictions that would favor false positives.
 
-Logistic Regression L1 Tune
-* Train Accuracy: 95.59%
-* Test Accuracy: 93.82%
+
+Logistic Regression Balanced With SMOTE
+* Train Accuracy: 74.8%
+* Test Accuracy: 73.4%
 
 Logistic Regression AUC - ROC Curve:
 * Based on AUC, there is an 85% chance that the Logistic Regression model will be able to distinguish between stroke and no stroke in a new patient.
@@ -81,7 +82,7 @@ Logistic Regression AUC - ROC Curve:
 
 ## Limitations & Next Steps
 
-* Implement other models and compare their performance to what is used, examples include: Naives Bayes, Tree Classifier, Random Forest Classifier, SVC, and XGB Classifier.
+* Implement other models and compare their performance to what is used, examples include: Naives Bayes, Tree Classifier, Random Forest Classifier, and SVC.
 * Stroke patients (1) are underrepresented, which is a challenge for this data set. 
 
 
